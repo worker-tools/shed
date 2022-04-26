@@ -1,0 +1,1 @@
+export * from 'https://ghuc.cc/worker-tools/router/index.ts';
