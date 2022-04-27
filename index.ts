@@ -3,6 +3,7 @@ export type { URLPatternInit, URLPatternComponentResult, URLPatternInput, URLPat
 export * from './middleware.ts'
 export * from './response-creators.ts'
 export * from './html.ts'
+export * from './stream-response.ts'
 export * from './json-fetch.ts'
 export * from './request-cookie-store.ts'
 export * from './signed-cookie-store.ts'
