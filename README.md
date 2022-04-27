@@ -23,8 +23,6 @@ ___Work In Progress___
 <!-- - ❓ __JSON Parse Stream__ --- TODO -->
 <!-- - ❓ __JSON Stringify Stream__ --- TODO -->
 
-*[SSE]: Server Sent Events
-
 Worker Tools also includes a number of polyfills that help bridge the gap between different Worker Environments:
 - ✏️ [__HTML Rewriter__](https://github.com/worker-tools/html-rewriter) --- Cloudflare's HTML Rewriter for use in Deno, browsers, etc...
 - 📍 [__Location Polyfill__](https://github.com/worker-tools/location-polyfill) --- A `Location` polyfill for Cloudflare Workers.
@@ -42,3 +40,6 @@ For __other environments__ such as module bundlers, webpack or esbuild, Worker T
 ```sh
 npm install @worker-tools/shed
 ```
+
+
+*[SSE]: Server Sent Events
