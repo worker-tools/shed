@@ -9,4 +9,8 @@ export * from './request-cookie-store.ts'
 export * from './signed-cookie-store.ts'
 export { EncryptedCookieStore } from './encrypted-cookie-store.ts'
 export type { EncryptedCookieStoreOptions } from './encrypted-cookie-store.ts';
-export * from './html-rewriter.ts'
+export * from './resolvable-promise.ts'
+export * from './extendable-promise.ts'
+
+// TODO: Include polyfills in index!?
+// export * from './html-rewriter.ts'
