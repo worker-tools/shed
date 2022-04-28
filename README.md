@@ -28,11 +28,13 @@ Worker Tools also includes a number of polyfills that help bridge the gap betwee
 - 📍 [__Location Polyfill__](https://github.com/worker-tools/location-polyfill) --- A `Location` polyfill for Cloudflare Workers.
 - 🦕 [__Deno Fetch Event Adapter__](https://github.com/worker-tools/deno-fetch-event-adapter) --- Dispatches global `fetch` events using Deno’s native HTTP server.
 
+*[SSE]: Server Sent Events
+
 ## How to Use
 __Deno__ users can import Worker Tools directly from GitHub as they are written in TypeScript with fully qualified import specifiers:
 
 ```js
-import { WorkerRouter } from 'https://ghuc.cc/worker-tools/shed/index.ts'
+import * as shed from 'https://ghuc.cc/worker-tools/shed/index.ts'
 ```
 
 For __other environments__ such as module bundlers, webpack or esbuild, Worker Tools are distributed as node-ified modules that can be installed via __npm__ and behave like regular npm modules
