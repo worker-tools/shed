@@ -1,5 +1,5 @@
 # Shed
-__Shed__ is the entire collection of [__Worker Tools__](https://workers.tools) under a single roof, which doubles as a complete web framework built for Worker Runtimes.
+__Shed__ is the entire collection of [__Worker Tools__](https://workers.tools) under a single roof, which doubles as a complete web framework built for [Worker Runtimes](https://workers.js.org).
 
 ***
 

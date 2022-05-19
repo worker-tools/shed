@@ -29,6 +29,9 @@ await build({
     name: './json-fetch',
     path: 'json-fetch.ts'
   }, {
+    name: './json-stream',
+    path: 'json-stream.ts'
+  }, {
     name: './middleware',
     path: 'middleware.ts'
   }, {
@@ -99,6 +102,10 @@ await build({
     },
     "https://ghuc.cc/worker-tools/json-fetch/index.ts": {
       name: "@worker-tools/json-fetch",
+      version: "latest"
+    },
+    "https://ghuc.cc/worker-tools/json-stream/index.ts": {
+      name: "@worker-tools/json-stream",
       version: "latest"
     },
     "https://ghuc.cc/worker-tools/middleware/index.ts": {
