@@ -1,0 +1,1 @@
+export * from 'https://ghuc.cc/worker-tools/kv-storage/index.ts'
