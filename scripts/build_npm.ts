@@ -1,7 +1,7 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write=./,/Users/qwtel/Library/Caches/deno --allow-net --allow-env=HOME,DENO_AUTH_TOKENS,DENO_DIR --allow-run=git,pnpm
 
-import { basename, extname } from "https://deno.land/std@0.133.0/path/mod.ts";
-import { build, emptyDir } from "https://deno.land/x/dnt/mod.ts";
+import { basename } from "https://deno.land/std@0.133.0/path/mod.ts";
+import { build, emptyDir } from "https://deno.land/x/dnt@0.23.0/mod.ts";
 
 import { 
   copyMdFiles, mkPackage,
